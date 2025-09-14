@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-c%5y&=b#e&f26f8y&^+k*fm0w^f*9g^6mhsh2$(5)ils311i#_
 PRODUCTION = os.getenv('PRODUCTION', 'False').lower() == 'true'
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "muhathir-muhammad-footballnews.pbp.cs.ui.ac.id"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "muhathir-muhammad-football-news.pbp.cs.ui.ac.id"]
 
 
 # Application definition
@@ -56,7 +56,7 @@ MIDDLEWARE = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://muhathir-muhammad-footballnews.pbp.cs.ui.ac.id',
+    'https://muhathir-muhammad-football-news.pbp.cs.ui.ac.id',
 ]
 ROOT_URLCONF = 'football_news.urls'
 
